@@ -35,22 +35,24 @@
 										<option value="japan">Japan</option>
 								</select>
 
-								<label for="gender">Male</label>
+								<br>
 								<input checked type="radio" id="gender" name="gender" value="ismale">
-								<label for="gender">Female</label>
+								<label for="gender">Male</label>
 								<input type="radio" id="gender" name="gender" value="isfemale">
-								<label for="gender">prefer not to say</label>
+								<label for="gender">Female</label>
 								<input type="radio" id="gender" name="gender" value="isgay">
+								<label for="gender">prefer not to say</label>
 								
-								<label for="disabled">Are you disabled?</label>
-								<input type="checkbox" id="disabled" value="disabled">
-        <label for="vision-problems">Are you visually impaired?</label>
-								<input type="checkbox" id="vision-problems" value="visionpromblems">
-								<label for="mental-problems">Do you have any mental health issues?</label>
-								<input type="checkbox" id="mental-problems" value="mentalpromblems">
 
-								<label for="message">Explain the reasons and motivations behind choosing this job? <strong>(OPTIONAL)</strong></label>
-        <textarea id="message" placeholder="Write a Message here" rows="5" cols="20"></textarea>
+								<input type="checkbox" id="disabled" value="disabled">
+								<label for="disabled">Are you disabled?</label>
+								<input type="checkbox" id="vision-problems" value="visionpromblems">
+        				<label for="vision-problems">Are you visually impaired?</label>
+								<input type="checkbox" id="mental-problems" value="mentalpromblems">
+								<label for="mental-problems">Do you have any mental health issues?</label>
+
+								<br><label for="message">Explain the reasons and motivations behind choosing this job? <strong>(OPTIONAL)</strong></label>
+        				<textarea id="message" placeholder="Write a Message here" rows="5" cols="20"></textarea>
 
 								<button type="submit" id="submit">Submit</button>
 						</form>
