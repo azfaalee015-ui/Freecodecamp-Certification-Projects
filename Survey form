@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <title>Survey Form</title>
+  </head>
+		<body>
+				<h1 id="title">Contract Page</h1>
+				<p id="description"><strong>Please follow the steps below to complete the new-hire onboarding process:</strong></p>
+						<ol>
+								<li>Access the company's official website via the provided link.</li>
+								<li>Fill in the required information in the designated form, <b>ensuring</b> that all fields are accurate.</li>
+					 		<li><b>Carefully</b> review the details of the employment contract and check the box to confirm your acceptance of the <em>terms</em> and <em>conditions.</em></li>
+								<li>Sign the employment contract electronically as instructed.</li>
+						</ol>
+				<p>Once all the above steps have been completed, the <strong>new-hire onboarding process is considered finished.</strong> Should you have any questions or encounter any <b>issues</b>, please contact a member of <em>the Human Resources department</em> for further assistance.</p>
+				<fieldset>
+				<legend>Personal Information Form</legend>
+						<form action="" id="survey-form">
+      		<label id="name-label" for="name">Name</label>
+								<input required type="text" id="name" placeholder="insert your name">
+								<label id="email-label" for="email">Email</label>
+								<input required type="email" id="email" placeholder="insert your email">
+								<label id="number-label" for="number">Age</label>
+								<input required type="number" id="number" placeholder="age" min="13" max="99">
+
+								<label for="dropdown">Choose a Country</label>
+								<select required id="dropdown">
+										<option selected value="">Choose</option>
+										<option value="usa">United States</option>
+										<option value="uk">United Kingdom</option>
+										<option value="mexico">Mexico</option>
+										<option value="spain">Spain</option>
+										<option value="china">China</option>
+										<option value="japan">Japan</option>
+								</select>
+
+								<label for="gender">Male</label>
+								<input checked type="radio" id="gender" name="gender" value="ismale">
+								<label for="gender">Female</label>
+								<input type="radio" id="gender" name="gender" value="isfemale">
+								<label for="gender">prefer not to say</label>
+								<input type="radio" id="gender" name="gender" value="isgay">
+								
+								<label for="disabled">Are you disabled?</label>
+								<input type="checkbox" id="disabled" value="disabled">
+        <label for="vision-problems">Are you visually impaired?</label>
+								<input type="checkbox" id="vision-problems" value="visionpromblems">
+								<label for="mental-problems">Do you have any mental health issues?</label>
+								<input type="checkbox" id="mental-problems" value="mentalpromblems">
+
+								<label for="message">Explain the reasons and motivations behind choosing this job? <strong>(OPTIONAL)</strong></label>
+        <textarea id="message" placeholder="Write a Message here" rows="5" cols="20"></textarea>
+
+								<button type="submit" id="submit">Submit</button>
+						</form>
+				</fieldset>
+  </body>
+</html>
